@@ -1,7 +1,7 @@
 # Electron-build-debian-Installer
 Building the Debian Based .deb file from Electron Desktop Application for Linux( Debian Based)
 
-#Install node_modules for the project
+# Install node_modules for the project
     1. clone the electron-secutrixdapp-debian-installer project
         git clone https://github.com/BALAVIGNESHDOSTRIX/electron-secutrixdapp-debian-installer.git
 
