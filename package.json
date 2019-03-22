@@ -1,0 +1,26 @@
+{
+  "name": "electron-secutrixdapp-debian-installer",
+  "version": "1.0.0",
+  "description": "Building the Debian Based .deb file from Electron Desktop Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "gen-deb-package":"electron-packager . electron-secutrixdapp-debian-installer  --platform=linux --arch=x64 --icon=assets/icons/png/favicon.ico --prune=true --out=release-builds",
+    "gen-deb_linux" : "node debian_gen.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BALAVIGNESHDOSTRIX/electron-secutrixdapp-debian-installer.git"
+  },
+  "author": "Balavignesh.M",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BALAVIGNESHDOSTRIX/electron-secutrixdapp-debian-installer/issues"
+  },
+  "homepage": "https://github.com/BALAVIGNESHDOSTRIX/electron-secutrixdapp-debian-installer#readme",
+  "devDependencies": {
+    "electron": "^4.1.1",
+    "electron-installer-debian": "^1.1.1",
+    "electron-packager": "^13.1.1"
+  }
+}
